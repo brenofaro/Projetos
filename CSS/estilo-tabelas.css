@@ -1,0 +1,35 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table#tabela {
+	width: 60%;
+	border-collapse: separate;
+}
+
+#tabela td, #tabela th {
+
+	padding: 7px;
+
+}
+
+#tabela th {
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado {
+	background: #EFEFEF;
+}
+
+.direita{
+	text-align: right !important; 
+}
+
+#tabela tr.conteudo:hover {
+	background-color: #c3e6e5;
+}
